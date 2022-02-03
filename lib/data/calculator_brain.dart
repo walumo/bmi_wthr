@@ -1,4 +1,4 @@
-import 'calculate_button.dart';
+import 'package:bmi_calculator/ui_components/calculate_button.dart';
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
