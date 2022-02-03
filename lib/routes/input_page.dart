@@ -78,6 +78,7 @@ class _InputPageState extends State<InputPage> {
                     'Use this app to measure your BMI(body mass index) or'
                     'WHtR(waist to height ratio).',
                     style: drawerText,
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 Padding(
@@ -85,6 +86,7 @@ class _InputPageState extends State<InputPage> {
                   child: Text(
                     'BMI calculation:\n  [weight / (height/100)^2]',
                     style: drawerText,
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 Padding(
@@ -92,6 +94,7 @@ class _InputPageState extends State<InputPage> {
                   child: Text(
                     'WHtR calculation:\n [waist / (height*agefactor]',
                     style: drawerText,
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 Padding(
@@ -99,6 +102,7 @@ class _InputPageState extends State<InputPage> {
                   child: Text(
                     'WHtR also takes into account your sex and age.',
                     style: drawerText,
+                    textAlign: TextAlign.center,
                   ),
                 ),
               ],
@@ -115,7 +119,7 @@ class _InputPageState extends State<InputPage> {
         ),
         centerTitle: true,
         backgroundColor: Color(0xFF0D101E),
-        title: Text('BMI & WtHR'),
+        title: Text('BMI & WHtR'),
       ),
       body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
