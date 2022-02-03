@@ -13,7 +13,7 @@ A Flutter app to calculate body mass index and/or waist to height ratio. Body ma
 Clone the project
 
 ```bash
-  git clone [URL]
+  git clone https://github.com/walumo/bmi_wthr.git
 ```
 
 Go to the project directory
