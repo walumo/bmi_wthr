@@ -10,6 +10,8 @@ A Flutter app to calculate body mass index and/or waist to height ratio. Body ma
 
 ## Install
 
+You need to have installed Flutter framework and Dart SDK.
+
 Clone the project
 
 ```bash
